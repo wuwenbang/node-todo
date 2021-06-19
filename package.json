@@ -1,0 +1,26 @@
+{
+  "name": "coco-todo",
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "version": "1.0.2",
+  "main": "api.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "coco-todo": "^1.0.1",
+    "commander": "^7.2.0",
+    "inquirer": "^8.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^27.0.4"
+  }
+}
